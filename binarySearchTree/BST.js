@@ -84,6 +84,9 @@ BST.prototype.delete = function (value) {
     }
 };
 
+// Visits root
+// Visits left child
+// Visits right child
 BST.preOrder = function (root) {
     "use strict";
 
@@ -94,6 +97,9 @@ BST.preOrder = function (root) {
     }
 };
 
+// Visits left child
+// Visits root
+// Visits right child
 BST.inOrder = function (root) {
     "use strict";
 
@@ -104,6 +110,9 @@ BST.inOrder = function (root) {
     }
 };
 
+// Visits left child
+// Visits right child
+// Visits root
 BST.postOrder = function (root) {
     "use strict";
 
